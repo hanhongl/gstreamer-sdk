@@ -6,9 +6,13 @@ sudo apt-get install libgstreamer1.0-dev libgstreamer-plugins-base1.0-dev libgst
 
 2.编译
 cd gstreamer-sdk
+
 mkdir build
+
 cd build
+
 cmake ..
+
 make -j
 
 3.编译生成demo的软件在x86_64中
